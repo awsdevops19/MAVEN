@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>sathya</groupId>
     <artifactId>devops</artifactId>
-    <version>2.0</version>
+    <version>1.0</version>
     <packaging>war</packaging>
     <name>myproj</name>
     <properties>
@@ -29,17 +29,7 @@
             <email>arun.gupta@gmail.com</email>
         </developer>
     </developers>
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://35.225.145.102:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://35.225.145.102:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+    <distributionManagement>  
     </distributionManagement>
     <build>
     	<finalName>myproj</finalName>
